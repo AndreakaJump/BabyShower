@@ -178,6 +178,7 @@ input, select, textarea {
 	}
 
 	p {
+		font-size: 1.5em;
 		margin: 0 0 2em 0;
 	}
 
@@ -211,11 +212,12 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 4.0em;
+		font-family: 'Dancing Script', cursive;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	h4 {
@@ -227,7 +229,8 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 6.0em;
+		font-family: 'Dancing Script', cursive;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1994,9 +1997,10 @@ input, select, textarea {
 
 	label {
 		display: block;
-		font-size: 0.9em;
-		font-weight: 400;
+		font-size: 1.5em;
+		letter-spacing: -0.025em;
 		margin: 0 0 1em 0;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
 
 	input[type="text"],
@@ -2283,7 +2287,7 @@ input, select, textarea {
 
 			.icon.alt:before {
 				display: block;
-				font-size: 1.25em;
+				font-size: 1.5em;
 				width: 2em;
 				height: 2em;
 				text-align: center;
@@ -2641,7 +2645,7 @@ input, select, textarea {
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 4em;
 		}
 
 			header.major h2:after {
@@ -2659,7 +2663,7 @@ input, select, textarea {
 				}
 
 		header.major p {
-			font-size: 1.25em;
+			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
 
@@ -2683,11 +2687,11 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				font-size: 1.5em;
+				font-size: 2.5em;
 			}
 
 			header.major p {
-				font-size: 1em;
+				font-size: 1.5em;
 				letter-spacing: 0;
 			}
 
@@ -3081,12 +3085,12 @@ input, select, textarea {
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 5em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3155,7 +3159,7 @@ input, select, textarea {
 			}
 
 				#header p {
-					font-size: 1em;
+					font-size: 1.5em;
 					letter-spacing: 0;
 				}
 
